@@ -1,0 +1,113 @@
+
+body {
+  background-color: #ffffff;
+}
+
+.App {
+  text-align: center;
+}
+
+#title {
+  color: #fde3e8;
+  font-size: 140px;
+  font-weight: 80;
+  font-family: 'Yesteryear', cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.nav-bar {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #92f1c8;
+  font-size: 20px;
+  height: 180px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.overflow-auto {
+  height: 190px;
+  overflow-x: hidden;
+}
+
+.checkbox-field {
+  background-color: #e0dede;
+  border-radius: 18px;
+  width: 460px;
+}
+
+.checkbox {
+  display: flex;
+  justify-self: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 12px;
+}
+
+.filter {
+  margin-right: 180px;
+}
+
+.store-buttons {
+  display: inline-block;
+  padding-right: 70px;
+}
+
+#steam-button {
+  margin-right: 10px;
+}
+
+.image-item {
+  width: 80%;
+  height: auto;
+  padding-bottom: 4px;
+  border-radius: 12px;
+}
+
+.col-sm-3 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.game-card {
+ background-color: #fde3e8;
+ width: 90%;
+ border-radius: 25px;
+ padding-top: 10px;
+ cursor: pointer;
+}
+
+#game-title {
+  color: #0D0D0C;
+  font-family: Arial, Helvetica, sans-serif, serif;
+  font-size: 20px;
+}
+
+#developer-name{
+  color:#161414;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#publisher-name{
+  color: #161414;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+

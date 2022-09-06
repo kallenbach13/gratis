@@ -55,6 +55,6 @@ If you have any tips on how to go about achieving any of these goals or any sugg
 <br>
 
 #### My Links:
-[Personal Portfolio](https://kallenbach13.github.io/personal-portfolio-website/)
+[Personal Portfolio](https://isakkallenbach.netlify.app/)
 <br>
 [Github](https://github.com/kallenbach13)

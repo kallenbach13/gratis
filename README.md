@@ -19,9 +19,9 @@ It was also a fun reason to do a much more complicated React/Rails project than 
 
 The following commands are meant to be typed into the terminal at the server's directory.
 
-##### 1. Use Ruby Version 2.6.1
+##### 1. Use Ruby Version 3.0.1
 
-Because of some of the dependencies, it is necessary to be on the right verison of Ruby. Check to make sure you're using Ruby 2.6.1. You can check what version you're on by typing **ruby -v** in the terminal.
+Because of some of the dependencies, it is necessary to be on the right verison of Ruby. Check to make sure you're using Ruby 3.0.1. You can check what version you're on by typing **ruby -v** in the terminal.
 
 ##### 2. Install Dependencies
 
@@ -33,7 +33,7 @@ Run **rails db:seed** in the terminal if you want to update and/or add new games
 
 ##### 4. Start Server
 
-Run **rails s** in the terminal to start the server listening on [http://localhost:3000](http://localhost:3000).
+Run **rails s** in the terminal to start the server listening on [http://localhost:3000](http://localhost:3000). *Note: You will need to change the games and genres fetch statements in the GamesContainer.js file in the client/src folder to http://localhost:3000/games and http://localhost:3000/genres, respectively.*
 
 #### Client
 

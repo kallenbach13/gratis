@@ -16,10 +16,10 @@ class GamesContainer extends Component {
       };
     
     componentDidMount() {
-        fetch("http://localhost:3000/games")
+        fetch("https://gratis-means-free.herokuapp.com/games")
           .then(res => res.json())
           .then(games => this.setState({ games }));
-        fetch("http://localhost:3000/genres")
+        fetch("https://gratis-means-free.herokuapp.com/genres")
         .then(res => res.json())
         .then(genres => this.setState({ genres }));
     };
